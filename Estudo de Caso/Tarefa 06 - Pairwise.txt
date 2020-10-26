@@ -1,0 +1,32 @@
+#############
+# Tarefa 06 # 
+#############
+
+Produto: sabao
+Tipo: po, barra, pasta, liquido        
+Marca: ype, omo, surf, brilhante
+Quantidade: pouco, medio, muito
+Preco: barato, normal, caro         
+Loja: extra, submarino, paodeacucar, carrefour
+
+Produto	Tipo	Marca	Quantidade	Preco	Loja
+sabao	liquido	ype	pouco	caro	extra
+sabao	barra	surf	muito	normal	paodeacucar
+sabao	po	surf	medio	barato	submarino
+sabao	barra	brilhante	pouco	caro	submarino
+sabao	pasta	omo	medio	normal	submarino
+sabao	liquido	omo	muito	barato	carrefour
+sabao	pasta	ype	pouco	barato	paodeacucar
+sabao	liquido	ype	pouco	normal	submarino
+sabao	liquido	surf	medio	caro	carrefour
+sabao	po	brilhante	pouco	normal	carrefour
+sabao	pasta	brilhante	muito	barato	extra
+sabao	pasta	ype	muito	caro	carrefour
+sabao	po	omo	muito	caro	extra
+sabao	barra	ype	medio	normal	extra
+sabao	pasta	surf	pouco	caro	extra
+sabao	liquido	brilhante	medio	caro	paodeacucar
+sabao	po	ype	muito	barato	paodeacucar
+sabao	barra	omo	pouco	barato	carrefour
+sabao	barra	surf	muito	barato	submarino
+sabao	po	omo	pouco	barato	paodeacucar
