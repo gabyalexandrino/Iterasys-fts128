@@ -20,16 +20,14 @@
       Quando altero alguma propriedade
       Entao o sistema atualiza o item e exibe com as propriedades atualizadas
 
-    Esquema do Cenario: Consultar itens na lista
+    Cenario: Consultar itens na lista
       Dado que estou em Microsoft To Do e logada
-      Quando digito <item> na barra de pesquisa e pressiono Enter
-      Entao o sistema exibe todos os resultados que contenham <item> no nome
-      Exemplos:
-        | item |
-        | "macarrao" |
-        | "molho de tomate" |
+      Quando digito "maca" na barra de pesquisa e pressiono Enter
+      Entao o sistema exibe todos os resultados que contenham "maca" no nome
 
     Cenario: Incluir itens na lista
       Dado que estou em Microsoft To Do e logada
       Quando clico em "Lista de Compras"
       Entao os itens da "Lista de Compras" são exibidos
+      Quando clico em Add a task e preencho com o nome e aperto Enter
+      Entao o sistema insere o novo item na lista e exibe a "Lista de Compras"
