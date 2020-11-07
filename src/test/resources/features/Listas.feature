@@ -27,7 +27,7 @@
   Cenario: Excluir uma lista
     Dado que estou em Microsoft To Do e logada
     Quando clico com o botão direito em "Lista de Compras" e seleciono Delete List
-    Entao o sistema exibe uma mensagem: "Lista de compras" will be permanently deleted. You wont be able to undo this action.
+    Entao exibe uma mensagem: "Lista de compras" will be permanently deleted. You wont be able to undo this action.
     Quando clico em Delete list
     Entao a lista sera deletada e a lista anterior sera exibida
 
@@ -36,7 +36,7 @@
     Quando clico em "Lista de Compras"
     Entao os itens da "Lista de Compras" são exibidos
     Quando clico no icone de Share
-    Entao o sistema exibe uma mensagem informando: Anyone with this link and a Microsoft account can join and edit this list.
+    Entao exibe uma mensagem informando: Anyone with this link and a Microsoft account can join and edit this list.
     Quando clico em Create invitation link
-    Entao o sistema exibe o link de compartilhamento da lista e opcao de enviar via email e gerenciar acesso
+    Entao exibe o link de compartilhamento da lista e opcao de enviar via email e gerenciar acesso
 

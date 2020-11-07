@@ -32,9 +32,9 @@
       E digita a senha "Atena2020" e clica em Entrar
       Entao o site exibe a mensagem de erro: Sua conta ou senha está incorreta. Se você não se lembra da sua senha, redefina-a agora.
       Quando clico em Forgot password?
-      Entao o sistema exibe uma mensagem informando que precisa verificar a identidade do usuario e informa uma parte do email de recuperacao
+      Entao  exibe uma mensagem informando que precisa verificar a identidade do usuario e informa uma parte do email de recuperacao
       Quando clico em proximo
-      Entao o sistema envia um email para o email de recuperacao do usuario com um codigo de verificacao
+      Entao um email e envido para o email de recuperacao do usuario com um codigo de verificacao
 
     Cenario: Criar usuario
       Dado que estou em Microsoft To Do e deslogado
