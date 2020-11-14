@@ -14,7 +14,7 @@ import org.openqa.selenium.chrome.ChromeDriver;
 import java.util.concurrent.TimeUnit;
 
 // 3 - Classe
-public class ListasPuro {
+public class ApagarListaPuro {
     // 3.1 - Atributos = Caracteristicas
     String url; // guardara o endereco do site alvo
     WebDriver driver; // objeto do Selenium WebDriver
@@ -41,7 +41,7 @@ public class ListasPuro {
     }
 
     @Test
-    public void criarListaComTresItens() throws InterruptedException {
+    public void apagarLista() throws InterruptedException {
         driver.get(url);
         // Página de Login
         driver.findElement(By.id("mectrl_headerPicture")).click();
@@ -53,16 +53,6 @@ public class ListasPuro {
         driver.findElement(By.id("idBtn_Back")).click();
 
         // Páginas de Taks - tarefas
-        driver.findElement(By.id("baseAddInput-addList")).click(); // clica no elemento "Nova Lista"
-        driver.findElement(By.id("baseAddInput-addList")).clear(); // apaga o texto do elemento
-        //driver.findElement(By.id("baseAddInput-addList")).sendKeys("Musicas"); // cola a palavra "Musica"
-        //driver.findElement(By.id("baseAddInput-addList")).sendKeys(Keys.chord("Musicas" + Keys.ENTER)); // soletra a palavra "Musica" e pressiona Enter
-        driver.findElement(By.id("baseAddInput-addList")).sendKeys(Keys.chord("Musicas")); // soletra a palavra "Musica"
-        // Todo: implementar o print da tela
-        driver.findElement(By.id("baseAddInput-addList")).sendKeys(Keys.ENTER); // pressiona a tecla Enter
 
-        driver.findElement(By.id("baseAddInput-addTask")).sendKeys(Keys.chord("O Quereres") + Keys.ENTER);
-        driver.findElement(By.id("baseAddInput-addTask")).sendKeys(Keys.chord("Terra") + Keys.ENTER);
-        driver.findElement(By.id("baseAddInput-addTask")).sendKeys(Keys.chord("Me Gusta") + Keys.ENTER);
     }
 }
